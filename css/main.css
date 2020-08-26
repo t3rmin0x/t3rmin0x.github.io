@@ -46,10 +46,13 @@ a:hover {
   border: 2px;
   border-radius: 12px;
   max-width: 300px;
-  margin: auto;
   margin-top: 5%;
   text-align: center;
   box-shadow: 0 8px 10px 0 #f00c7a;
+  float: left;
+  margin-left: 8%; 
+  width: 25%;
+
 }
 
 .title {
@@ -357,7 +360,4 @@ h2 {
   .feature-container:nth-child(2) {
     order: -1;
   }
-  
-  
-  
 }
